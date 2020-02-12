@@ -1,0 +1,38 @@
+@media only screen and (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 10px;
+    }
+    
+
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 781px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+    
+
+    
+}
+
+
+   
+
+.grid-item {
+    border-style: solid;
+}
+
+#img1 {
+    text-align: center;
+}
+
+.grid-item ul {
+    display: block;
+    margin: auto;
+}
+

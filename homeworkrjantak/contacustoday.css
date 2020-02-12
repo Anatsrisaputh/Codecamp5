@@ -1,0 +1,11 @@
+.name-email {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.email {
+margin-left: 20px;
+}
