@@ -19,7 +19,12 @@
 // OUTPUT
 // 2/1
 
-let A = prompt("Please insert number first");
-let B = prompt("Please insert number second");
+let A = Number(prompt("Please insert number first"));
+let B = Number(prompt("Please insert number second"));
+let x = A/B;
+    for (x >= A); {
 
-if (A / B = )
+    }
+
+
+
