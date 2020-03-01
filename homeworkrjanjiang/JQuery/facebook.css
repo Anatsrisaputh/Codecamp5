@@ -1,0 +1,18 @@
+.navbar {
+    display: grid;
+    background-color:#4267b2 ;
+    height: 1cm;
+    width: auto;
+}
+
+.logo {
+display: grid;
+background-image: url("./logo.png");
+position: center;
+width: auto;
+height: auto;
+}
+
+
+
+
