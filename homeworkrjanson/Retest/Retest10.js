@@ -11,26 +11,18 @@
 // alert()
 
 
-let max = Infinity;
 let min = Infinity;
 let input = Infinity;
 
-// input = Number(prompt('Enter a number'));
 while (input) {
-    input = Number(prompt("Enter number"));
+    input = +prompt('Enter a number');
     if (input < min) {
-        min = input;
-    }
-    else if (input > max) {
-        input = max;
-    }
+        min = input
 
-    else if (input === "stop") {
-        break;
     }
-    else;
-    
 }
+
+console.log(min);
 
 alert(min)
 
