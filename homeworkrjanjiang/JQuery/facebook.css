@@ -9,6 +9,7 @@
     max-width: 1024px;
     width: auto;
     grid-template-columns: auto auto auto auto auto auto;
+    
     /* grid-gap: 10px; */
     background-color: #4267b2;
     /* padding: 10px; */
@@ -24,6 +25,20 @@
     font-family: Klavika; 
     src: url(http://fontsgeek.com/fonts/Klavika-Bold-Bold-OSF);
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.createpost {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: auto;
+    height: auto;
+}
+.top-createpost {
+    text-align: left;
 
 
 
