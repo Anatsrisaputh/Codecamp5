@@ -22,7 +22,7 @@
 let A = Number(prompt("Please insert number first"));
 let B = Number(prompt("Please insert number second"));
 let x = A/B;
-    for (x >= A); {
+    for (x >= A) {
 
     }
 

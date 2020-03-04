@@ -1,3 +1,6 @@
+// // ให้รับค่าจาก prompt มาเรื่อย ๆ จนกระทั่ง เจอคำว่า stop 
+// แล้วให้แสดงผลต่างของตัวเลขที่น้อยที่สุด และ มากที่สุดออกมา
+
 let min = Infinity;
 let max = - Infinity;
 let input = Infinity;

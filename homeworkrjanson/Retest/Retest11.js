@@ -1,5 +1,7 @@
-  // 11 
-  let min1 = Infinity;
+// ให้รับค่าจาก prompt มาเรื่อย ๆ จนกระทั่ง เจอคำว่า stop แล้วให้แสดงตัวเลข
+// ที่น้อยที่สุดออกมา 3 อันดับแรก
+  
+let min1 = Infinity;
   let min2 = Infinity;
   let min3 = Infinity;
   let input = Infinity;
